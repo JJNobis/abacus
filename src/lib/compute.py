@@ -1,16 +1,21 @@
+# Exercise 2: Examining Differences Between Files
+
 class Compute:
-	def _init_(self, operator, operands):
-		self.operator = operator
-		self.operands = operands
+    def __init__(self, operator, operands):
+        self.operator = operator
+        self.operands = operands
 
-	def add(self):
-		pass
+    def add(self):
+        pass
 
-	def subtract(self):
-		pass
+    def subtract(self):
+        pass
 
-	def divide(self):
-		pass
+    def divide(self):
+        pass
 
-	def multiply(self):
-		pass
+    def multiply(self):
+        sum  = 1
+        for item in self.operands:
+            sum *= item
+        print(sum)
