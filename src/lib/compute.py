@@ -17,7 +17,7 @@ class Compute:
     def divide(self):
         quotient = 1
         for item in self.operands:
-            quotient / item
+            quotient = item / quotient
         print(quotient)
 
     def multiply(self):
