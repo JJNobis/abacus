@@ -15,10 +15,7 @@ class Compute:
         print(difference)
 
     def divide(self):
-        quotient = 1
-        for item in self.operands:
-            quotient /= item
-        print(quotient)
+        pass
 
     def multiply(self):
         if self.operands is None:
@@ -27,5 +24,3 @@ class Compute:
         for item in self.operands:
             product *= item
         print(product)
-
-
